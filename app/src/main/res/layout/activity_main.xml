@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/readWebpage"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickOff"
+        android:text="Turn OFF" >
+    </Button>
+    <Button
+        android:id="@+id/turnOn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickOn"
+        android:text="Turn ON" >
+    </Button>
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Placeholder" >
+    </TextView>
+
+</LinearLayout>
