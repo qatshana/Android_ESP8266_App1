@@ -61,7 +61,7 @@ public class MainActivity extends Activity {
 
     public void onClickOff(View view) {
         Log.i(TAG,"Button Pressed");
-        //String url="http://www.judeventures.com/api/get_all_products.php";
+
         String url="http://192.168.4.1/OFF";
         DownloadWebPageTask task = new DownloadWebPageTask();
         task.execute(new String[] { url, "http://www.vogella.com/index.html" });
@@ -70,7 +70,7 @@ public class MainActivity extends Activity {
 
     public void onClickOn(View view) {
         Log.i(TAG,"Button Pressed");
-        //String url="http://www.judeventures.com/api/get_all_products.php";
+      
         String url="http://192.168.4.1/ON";
         DownloadWebPageTask task = new DownloadWebPageTask();
         task.execute(new String[] { url, "http://www.vogella.com/index.html" });
